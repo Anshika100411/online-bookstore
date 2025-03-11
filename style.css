@@ -1,0 +1,147 @@
+ *{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: rgb(128, 89, 31);
+
+
+}
+.header{
+    background-color: aliceblue;
+    color: blueviolet;
+    padding: 5px0;
+    text-align: center;
+}
+.header h1{
+    color: brown;
+    
+}
+nav ul{
+    color: burlywood;
+    list-style: none ;
+    /* isse bullet points nhi dikhenge. */
+    display: flex;  
+    /* content ek line me ek sath hi aa jayega.*/
+    justify-content: center;
+    padding: 10px0;
+}
+nav ul li{
+    margin: 015px;
+    
+}
+nav ul li a{
+    color: rgb(30, 131, 98);
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    
+}
+.main_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left_frame, .right_frame, .centre_frame{
+    width: 30% ;
+    padding: 15px;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.left_frame ul{
+    list-style: none;
+}
+.left_frame li{
+    margin: 10px0;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    background: rgb(230, 131, 74);
+    color: #a13535;
+    position:fixed;
+    width: 100% ;
+    line-height: 2px;
+    bottom: 0;
+
+}
+
+/* style for catalouge page */
+.catalouge-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.catalouge-table th, .catalouge-table td{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+    background: #f4f4f4;
+}
+.catalouge-table tr:nth-child(even){
+    background: #f9f9f9;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+/* login page */
+
+.img{
+    border-radius:  50%;
+    
+    text-align: center;
+}
+
+
+
+form{
+    text-align: center;
+}
+
+input[ type=text],input[type=password]{
+    width:50%;
+    height: 30px;
+
+}
+
+button[type=submit]{
+    background-color: rgb(57, 141, 236);
+    width:50%;
+    height:30px;
+    color: white;
+    border: none;
+}
+
+input[type=checkbox]{
+    text-align: center;
+}
+
+button[type=button]{
+    background-color: red;
+    color: white;
+    width:120px;
+    height:30px;
+}
+
+
+input[type=email]{
+    width: 50%;
+}
+
+
+.cataloguetable{
+    border: 1px solid black;
+}
+
+  
+  
